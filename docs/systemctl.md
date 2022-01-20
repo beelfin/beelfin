@@ -35,3 +35,8 @@ WantedBy=multi-user.target
   systemctl status --no-pager test_service // do not wait log
   systemctl stop test_service
   ```
+
+# 참고
+https://ma.ttias.be/auto-restart-crashed-service-systemd/
+
+https://chhanz.github.io/linux/2019/01/18/linux-how-to-create-custom-systemd-service/

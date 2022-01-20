@@ -31,6 +31,7 @@ WantedBy=multi-user.target
   ```
   systemctl enable test_service
   systemctl start test_service
-  systemctl status test_service.service
+  systemctl status test_service
+  systemctl status --no-pager test_service // do not wait log
   systemctl stop test_service
   ```

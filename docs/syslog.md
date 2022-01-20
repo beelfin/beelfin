@@ -5,6 +5,10 @@ syslog (LOG_NOTICE, "First daemon started.");
 syslog (LOG_NOTICE, "First daemon terminated.");
 closelog();
 ```
+or
+```
+syslog (LOG_NOTICE | LOG_LOCAL4, "First daemon started. new");
+```
 
 # /etc/rsyslog.conf
 ```

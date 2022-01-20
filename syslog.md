@@ -10,3 +10,6 @@ closelog();
 ```
 local4.*        /var/log/firstdaemon
 ```
+
+# 참고 사이트
+https://ahyuo79.blogspot.com/2019/04/syslog.html

@@ -23,7 +23,9 @@ WantedBy=multi-user.target
 ```
 
 # softlink to
+```
 /etc/systemd/system/test_service.service -> /<path>/test_service.service
+```
 
 # systemctl
   ```
